@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://TU_USUARIO.github.io/super-inventario",
+  "homepage": "https://github.com/FranAguilar98/SuperPlaneta.git",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
