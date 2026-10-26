@@ -1,0 +1,71 @@
+.grilla {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: 1rem;
+  background: #fff;
+  border: 2px solid var(--lila);
+  border-radius: 10px;
+}
+
+.tarjeta h3 {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+.tarjeta-categoria {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--gris);
+}
+
+.tarjeta-precio {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--primario);
+}
+
+.tarjeta-stock {
+  margin: 0;
+  color: var(--gris);
+}
+
+.etiqueta {
+  align-self: flex-start;
+  margin: 0;
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.etiqueta.ok {
+  background: var(--lila-claro);
+  color: var(--primario);
+}
+
+.etiqueta.alerta {
+  background: var(--acento);
+  color: #86198f;
+}
+
+.etiqueta.critico {
+  background: var(--primario-oscuro);
+  color: #fff;
+}
+
+.tarjeta-imagen {
+  width: 100%;
+  height: 160px;
+  object-fit: contain;
+  background: var(--lila-claro);
+  border-radius: 8px;
+}

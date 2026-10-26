@@ -1,0 +1,16 @@
+[
+  { "id": 1, "nombre": "Arroz grado 1 (1 kg)", "categoria": "Despensa", "precio": 1590, "stock": 120, "stockMinimo": 30 },
+  { "id": 2, "nombre": "Fideos espagueti (400 g)", "categoria": "Despensa", "precio": 990, "stock": 18, "stockMinimo": 25 },
+  { "id": 3, "nombre": "Aceite de maravilla (1 L)", "categoria": "Despensa", "precio": 2490, "stock": 64, "stockMinimo": 20 },
+  { "id": 4, "nombre": "Leche entera (1 L)", "categoria": "Lácteos", "precio": 1190, "stock": 85, "stockMinimo": 40 },
+  { "id": 5, "nombre": "Yogurt natural (pack 4)", "categoria": "Lácteos", "precio": 1790, "stock": 12, "stockMinimo": 15 },
+  { "id": 6, "nombre": "Queso gauda laminado (200 g)", "categoria": "Lácteos", "precio": 2890, "stock": 40, "stockMinimo": 10 },
+  { "id": 7, "nombre": "Manzana roja (kg)", "categoria": "Frutas y verduras", "precio": 1890, "stock": 55, "stockMinimo": 20 },
+  { "id": 8, "nombre": "Palta Hass (kg)", "categoria": "Frutas y verduras", "precio": 4990, "stock": 0, "stockMinimo": 10 },
+  { "id": 9, "nombre": "Tomate (kg)", "categoria": "Frutas y verduras", "precio": 1490, "stock": 33, "stockMinimo": 15 },
+  { "id": 10, "nombre": "Pechuga de pollo (kg)", "categoria": "Carnes", "precio": 5490, "stock": 22, "stockMinimo": 12 },
+  { "id": 11, "nombre": "Carne molida (500 g)", "categoria": "Carnes", "precio": 3990, "stock": 9, "stockMinimo": 12 },
+  { "id": 12, "nombre": "Bebida cola (2 L)", "categoria": "Bebidas", "precio": 2190, "stock": 96, "stockMinimo": 30 },
+  { "id": 13, "nombre": "Agua mineral sin gas (1,5 L)", "categoria": "Bebidas", "precio": 890, "stock": 150, "stockMinimo": 50 },
+  { "id": 14, "nombre": "Detergente líquido (3 L)", "categoria": "Limpieza", "precio": 6990, "stock": 27, "stockMinimo": 10 }
+]
