@@ -10,6 +10,10 @@
   --gris: #55508a;
 }
 
+html {
+  font-size: 112.5%;
+}
+
 * {
   box-sizing: border-box;
 }

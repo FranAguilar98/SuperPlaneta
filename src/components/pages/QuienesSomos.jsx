@@ -6,16 +6,18 @@ function QuienesSomos() {
     <section>
       <h1 className="titulo-pagina">Quiénes somos</h1>
       <p className="bajada">
-        SuperPlaneta es el sistema de gestión de inventario creado para
-        supermercados que quieren tener el control de sus productos.
+        SuperPlaneta es un supermercado con su propio sistema de gestión de
+        inventario, creado para que nuestras tiendas siempre tengan sus
+        productos en orden.
       </p>
 
       <div className="bloques">
         <article className="bloque">
-          <h2>Misión</h2>
+          <h2>Qué hacemos</h2>
           <p>
-            Ayudar a los supermercados a controlar sus existencias de forma
-            simple, evitando quiebres de stock y pérdidas por mermas.
+            Vendemos productos de despensa y, además, ofrecemos un sistema de
+            gestión de inventario para que los comercios locales mantengan sus
+            productos organizados y disponibles para sus clientes.
           </p>
         </article>
         <article className="bloque">

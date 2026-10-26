@@ -4,7 +4,7 @@
 
 /* padding-bottom deja espacio para que el menú inferior no tape el contenido */
 .contenido {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 1.5rem 1rem 6rem;
 }

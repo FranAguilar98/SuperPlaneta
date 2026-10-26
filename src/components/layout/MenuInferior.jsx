@@ -3,9 +3,9 @@ import './MenuInferior.css'
 
 // Menú fijo en la parte inferior. NavLink agrega la clase "activo" a la ruta actual
 const opciones = [
-  { ruta: '/', texto: 'Inicio', icono: '🏠' },
-  { ruta: '/quienes-somos', texto: 'Quiénes somos', icono: '🏪' },
-  { ruta: '/contacto', texto: 'Contáctanos', icono: '✉️' },
+  { ruta: '/', texto: 'Inicio' },
+  { ruta: '/quienes-somos', texto: 'Quiénes somos'},
+  { ruta: '/contacto', texto: 'Contáctanos' },
 ]
 
 function MenuInferior() {

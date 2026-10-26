@@ -1,26 +1,34 @@
 .grilla {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
 }
 
 .tarjeta {
   display: flex;
   flex-direction: column;
-  gap: 0.4rem;
-  padding: 1rem;
+  gap: 0.5rem;
+  padding: 1.25rem;
   background: #fff;
   border: 2px solid var(--lila);
-  border-radius: 10px;
+  border-radius: 12px;
+}
+
+.tarjeta-imagen {
+  width: 100%;
+  height: 240px;
+  object-fit: contain;
+  background: var(--lila-claro);
+  border-radius: 8px;
 }
 
 .tarjeta h3 {
   margin: 0;
-  font-size: 1.05rem;
+  font-size: 1.25rem;
 }
 
 .tarjeta-categoria {
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: var(--gris);
@@ -28,22 +36,23 @@
 
 .tarjeta-precio {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-weight: 700;
   color: var(--primario);
 }
 
 .tarjeta-stock {
   margin: 0;
+  font-size: 1.05rem;
   color: var(--gris);
 }
 
 .etiqueta {
   align-self: flex-start;
   margin: 0;
-  padding: 0.15rem 0.6rem;
+  padding: 0.25rem 0.8rem;
   border-radius: 999px;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-weight: 600;
 }
 
@@ -60,12 +69,4 @@
 .etiqueta.critico {
   background: var(--primario-oscuro);
   color: #fff;
-}
-
-.tarjeta-imagen {
-  width: 100%;
-  height: 160px;
-  object-fit: contain;
-  background: var(--lila-claro);
-  border-radius: 8px;
 }
